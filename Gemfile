@@ -19,6 +19,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   gem 'sqlite3', '1.4'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry'
 end
 
 group :development do
@@ -26,6 +27,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'rolemodel_rails', github: 'RoleModel/rolemodel_rails'
 end
 
 group :test do
@@ -40,3 +42,17 @@ group :production do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+group :test do
+  gem 'test-prof'
+end
+
+group :development, :test do
+  gem 'factory_bot_rails'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 4.0.0.beta2'
+end
+
+group :test do
+end
