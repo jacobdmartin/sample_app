@@ -1,14 +1,14 @@
 <<<<<<< HEAD
 example_id                                              | status  | run_time        |
 ------------------------------------------------------- | ------- | --------------- |
-./spec/controllers/static_pages_controller_spec.rb[1:1] | failed  | 0.00067 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:2] | passed  | 0.00412 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:3] | passed  | 0.02346 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:4] | passed  | 0.00408 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:5] | passed  | 0.00415 seconds |
-./spec/controllers/users_controller_spec.rb[1:1:1]      | failed  | 0.00108 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:1] | failed  | 0.00102 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:2] | passed  | 0.00299 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:3] | passed  | 0.01851 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:4] | passed  | 0.00495 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:5] | passed  | 0.00281 seconds |
+./spec/controllers/users_controller_spec.rb[1:1:1]      | failed  | 0.00113 seconds |
 ./spec/helpers/users_helper_spec.rb[1:1]                | pending | 0.00001 seconds |
-./spec/requests/site_layouts_spec.rb[1:1:1]             | passed  | 0.05247 seconds |
+./spec/requests/site_layouts_spec.rb[1:1:1]             | passed  | 0.0462 seconds  |
 ./spec/views/users/new.html.slim_spec.rb[1:1]           | pending | 0.00001 seconds |
 =======
 example_id                                              | status | run_time        |
