@@ -1,7 +1,6 @@
 example_id                                              | status | run_time        |
 ------------------------------------------------------- | ------ | --------------- |
-./spec/controllers/static_pages_controller_spec.rb[1:1] | failed | 0.00069 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:2] | passed | 0.89638 seconds |
-./spec/controllers/static_pages_controller_spec.rb[1:3] | passed | 0.0072 seconds  |
-./spec/controllers/static_pages_controller_spec.rb[1:4] | passed | 0.0056 seconds  |
-./spec/controllers/static_pages_controller_spec.rb[1:5] | passed | 0.01005 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:1] | passed | 0.0064 seconds  |
+./spec/controllers/static_pages_controller_spec.rb[1:2] | passed | 0.79407 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:3] | passed | 0.00461 seconds |
+./spec/controllers/static_pages_controller_spec.rb[1:4] | passed | 0.0051 seconds  |
