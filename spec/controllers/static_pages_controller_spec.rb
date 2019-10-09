@@ -7,16 +7,24 @@ RSpec.describe StaticPagesController, :controller do
     @base_title = "Ruby on Rails Tutorial Sample App"
   end
 
+<<<<<<< HEAD
   it "should get the root" do
     get root_url
     expect(response).to have_http_status(:success)
     expect(response.body).to have_title("Home | #{@base_title}")
   end
+=======
+  # it "should get the root" do
+  #   get :root_url
+  #   expect(response).to have_http_status(:success)
+  #   expect(response.body).to have_title("Home | #{@base_title}")
+  # end
+>>>>>>> rails-flavored-ruby
 
   it "should get home" do
     get :home
     expect(response).to have_http_status(:success)
-    expect(response.body).to have_title("Home | #{@base_title}")
+    expect(response.body).to have_title("#{@base_title}")
   end
 
   it "should get help" do
