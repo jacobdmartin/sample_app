@@ -8,7 +8,7 @@ RSpec.describe StaticPagesController, :controller do
   end
 
   it "should get the root" do
-    get :root_url
+    get root_url
     expect(response).to have_http_status(:success)
     expect(response.body).to have_title("Home | #{@base_title}")
   end

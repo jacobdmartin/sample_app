@@ -1,8 +1,8 @@
 header class="navbar navbar-fixed-top navbar-inverse"
   div class="container"
-    a(href='/static_pages/home' id="logo") Sample App
+    = link_to "Sample App", root_path, id: "logo"
     nav
       ul class="nav navbar-nav navbar-right"
-        li: a(href='/static_pages/home') Home
-        li: a(href='/static_pages/help') Help
-        li: a(href='/static_pages/log_in') Log In
+        li: a(href='/') Home
+        li: a(href='/help') Help
+        li: a(href='/log_in') Log In
